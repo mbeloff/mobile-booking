@@ -1,7 +1,11 @@
-html,
+html {
+  background: rgb(247, 241, 241);
+}
 body {
-  width: 100vw;
+  width: 425px;
+  height: 100vh;
   margin: auto;
+  background: white;
 }
 
 .cat {

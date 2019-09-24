@@ -1,7 +1,11 @@
-html,
+html {
+  background: #f7f1f1; }
+
 body {
-  width: 100vw;
-  margin: auto; }
+  width: 425px;
+  height: 100vh;
+  margin: auto;
+  background: white; }
 
 .cat {
   height: 60px;
