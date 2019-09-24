@@ -21,15 +21,15 @@ body {
     
   }
   &.cat-van {
-    background-image:linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.466)),url('/img/cat-van.png');
+    background-image:linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.300)),url('/img/cat-van.png');
   }
 
   &.cat-awd {
-    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.466)),url('/img/cat-4wd.png');
+    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.3)),url('/img/cat-4wd.png');
   }
 
   &.cat-car {
-    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.466)),url('/img/cat-car.png')
+    background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.3)),url('/img/cat-car.png')
   }
 }
 
@@ -92,6 +92,7 @@ body {
     font-family: arial;
     & span {
       font-size: .75rem;
+      color: rgba(231, 19, 19, 0.50);
     };
   }
 
