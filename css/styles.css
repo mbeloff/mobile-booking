@@ -1,0 +1,76 @@
+html,
+body {
+  width: 100vw;
+  margin: auto; }
+
+.cat {
+  height: 60px;
+  color: #ffd000;
+  background-color: black;
+  background-size: cover;
+  background-position: 50%;
+  border-top: 2px solid white; }
+  .cat h1 {
+    font-size: 2rem;
+    margin: 10px; }
+  .cat.cat-van {
+    background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0.466))), url("/img/cat-van.png");
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466)), url("/img/cat-van.png"); }
+  .cat.cat-awd {
+    background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0.466))), url("/img/cat-4wd.png");
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466)), url("/img/cat-4wd.png"); }
+  .cat.cat-car {
+    background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0.466))), url("/img/cat-car.png");
+    background-image: linear-gradient(90deg, black, rgba(0, 0, 0, 0.466)), url("/img/cat-car.png"); }
+
+.cat-container {
+  margin-bottom: 25px; }
+
+.vehicle {
+  margin-bottom: 5px; }
+
+.vehicle-img {
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.vehicle-name {
+  background-color: #c20605;
+  color: white; }
+
+.van-1 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-authentic/0.jpg"); }
+
+.van-2 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/3-berth-authentic/0.jpg"); }
+
+.van-3 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-no-slogan/0.jpg"); }
+
+.van-4 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/3-berth-no-slogan/0.jpg"); }
+
+.van-5 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-plain/0.jpg"); }
+
+.awd-1 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/2-5-berth-off-road-4x4/0.jpg"); }
+
+.awd-2 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/awd-5-sleeper/0.jpg"); }
+
+.car-1 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/mini-camper-3-sleeper/0.jpg"); }
+
+.car-2 .vehicle-img {
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/damn-cheap-classic-cars/0.jpg"); }
+
+.price {
+  font-family: arial; }
+  .price span {
+    font-size: .75rem; }
+
+.specs li {
+  border-bottom: 1px solid grey; }
+  .specs li .fad {
+    color: red; }
+/*# sourceMappingURL=styles.css.map */
