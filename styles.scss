@@ -3,7 +3,7 @@ html {
 }
 body {
   width: 425px;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   background: white;
 }
@@ -49,6 +49,7 @@ body {
   .vehicle-name {
     background-color: #c20605;
     color: white;
+    margin-bottom: 0;
   }
 
   .van-1 .vehicle-img {
@@ -62,9 +63,11 @@ body {
   .van-3 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-no-slogan/0.jpg');
   }
+
   .van-4 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/3-berth-no-slogan/0.jpg');
   }
+
   .van-5 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-plain/0.jpg');
   }
@@ -72,6 +75,7 @@ body {
   .awd-1 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-5-berth-off-road-4x4/0.jpg');
   }
+
   .awd-2 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/awd-5-sleeper/0.jpg');
   }
@@ -79,6 +83,7 @@ body {
   .car-1 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/mini-camper-3-sleeper/0.jpg')
   }
+
   .car-2 .vehicle-img {
     background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/damn-cheap-classic-cars/0.jpg')
   }

@@ -3,7 +3,7 @@ html {
 
 body {
   width: 425px;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   background: white; }
 
@@ -39,7 +39,8 @@ body {
 
 .vehicle-name {
   background-color: #c20605;
-  color: white; }
+  color: white;
+  margin-bottom: 0; }
 
 .van-1 .vehicle-img {
   background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-authentic/0.jpg"); }
