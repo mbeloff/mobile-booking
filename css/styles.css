@@ -71,7 +71,8 @@ body {
   background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/damn-cheap-classic-cars/0.jpg"); }
 
 .price {
-  font-family: arial; }
+  font-family: arial;
+  margin-bottom: 0; }
   .price span {
     font-size: .75rem;
     color: rgba(231, 19, 19, 0.5); }
