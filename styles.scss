@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
 html {
   background: #f7f1f1;
 }
+
 body {
   width: 100vw;
   max-width: 500px;
@@ -18,8 +21,7 @@ body {
   border-top: 2px solid white;
   & h1 {
     font-size: 1.5rem;
-    margin: 10px
-    
+    margin: 10px    
   }
   &.cat-van {
     background-image:linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.300)),url('/img/cat-van.png');
@@ -32,10 +34,6 @@ body {
   &.cat-car {
     background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(0, 0, 0, 0.3)),url('/img/cat-car.png')
   }
-}
-
-.cat-container {
-  margin-bottom: 25px;
 }
 
 .vehicle {
@@ -53,49 +51,37 @@ body {
     margin-bottom: 0;
   }
 
-  .van-1 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-authentic/0.jpg');
-  }
-
-  .van-2 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/3-berth-authentic/0.jpg');
-  }
-
-  .van-3 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-no-slogan/0.jpg');
-  }
-
-  .van-4 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/3-berth-no-slogan/0.jpg');
-  }
-
-  .van-5 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-berth-plain/0.jpg');
-  }
-
-  .awd-1 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/2-5-berth-off-road-4x4/0.jpg');
-  }
-
-  .awd-2 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/awd-5-sleeper/0.jpg');
-  }
-
-  .car-1 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/mini-camper-3-sleeper/0.jpg')
-  }
-
-  .car-2 .vehicle-img {
-    background-image: url('https://www.wickedcampers.com.au/bookings/images/galleries/damn-cheap-classic-cars/0.jpg')
-  }
-
   .price {
-    font-family: arial;
-    margin-bottom: 0;
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+    margin: 5% 0;
+    color: rgb(78, 76, 73);
     & span {
       font-size: .75rem;
       color: rgba(231, 19, 19, 0.50);
     };
+  }
+
+  .capacity {
+    color: #ffb700;
+    font-size: 1.5em;
+    margin: 5% 0;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: rgb(46, 46, 46);
+    
+  & span {
+    font-family: 'helvetica';
+    font-weight: bold;
+    margin-right: -22px;
+  }
+    & .fa-male {
+      margin-right: -4px !important;
+    }
+  
+    & .fa-times {
+      margin-left: 7px;
+  
+    }
   }
 
   .specs li {
