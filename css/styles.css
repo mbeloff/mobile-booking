@@ -9,6 +9,11 @@ body {
   margin: auto;
   background: white; }
 
+.menu {
+  max-width: 500px;
+  margin: auto;
+  height: auto; }
+
 .cat {
   height: 50px;
   color: #ffd000;
