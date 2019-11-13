@@ -1,21 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 html {
-  background: #f7f1f1;
+  // background: #f7f1f1;
+  height: 100%;
+  margin: 0 auto
 }
 
 body {
   width: 100vw;
   max-width: 500px;
-  min-height: 100vh;
-  margin: auto;
+
+  height: 100%;
+  margin: 0 auto;
+  background: rgb(231, 231, 231);
+}
+
+.wrapper {
   background: white;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 3em; /* Height of footer */
+  min-height: 100%;
 }
 
 .menu {
   max-width: 500px;
   margin: auto;
   height: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #202020;
 }
 
 
